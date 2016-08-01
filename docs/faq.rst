@@ -8,7 +8,7 @@ How can I stop ZoneMinder filling up my disk?
 ---------------------------------------------
 
 Recent versions of ZoneMinder come with a filter you can use for this purpose already included. 
-The filter is called **PurgeWhenFull** and to find it, choose one of the event counts from the console page, for instance events in the last hour, for one of your monitors. **Note** that this filter is automatically enabled if you do a frresh install of ZoneMinder including creating a new Database. If you already have an existing Database and are upgrading Zoneminder, it will retain the settings of the filter (which in earlier releases was disabled by default). So you may want to check if PurgeWhenFull is enabled and if not, enable it.
+The filter is called **PurgeWhenFull** and to find it, choose one of the event counts from the console page, for instance events in the last hour, for one of your monitors. **Note** that this filter is automatically enabled if you do a fresh install of ZoneMinder including creating a new Database. If you already have an existing Database and are upgrading Zoneminder, it will retain the settings of the filter (which in earlier releases was disabled by default). So you may want to check if PurgeWhenFull is enabled and if not, enable it.
 
 To enable it, go to Web Console, click on any of your Events of any of your monitors.
 This will bring up an event listing and a filter window.
